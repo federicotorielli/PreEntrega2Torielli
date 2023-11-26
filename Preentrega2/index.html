@@ -1,49 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primera Pre-entrega</title>
+    <title>Segunda Pre-entrega</title>
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Link de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 <body>
     <header>
-        <nav>
-            <img src="./media/aigeneratedlogo2.png" alt="cafe-logo">
-            <a href="index.html">Inicio</a>
-            <a href="./pages/productos.html">Productos</a>
+        <!-- header nav de bootstrap -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./media/aigeneratedlogo2.png" alt="cafe-logo" width="30" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" style="font-size: 25px;"
+                            href="index.html">Inicio</a>
+                        <a class="nav-link" style="font-size: 25px;" href="./pages/productos.html">Productos</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
+
     <main>
         <section>
             <!-- Box de introduccion al sitio web -->
-            <div class="intro">
+            <div class="intro container-fluid">
                 <img src="./media/aicoffeebags.png" alt="bolsas-cafe">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laborum dicta quia iusto non! Corrupti similique, minima quasi asperiores minus pariatur laboriosam nihil, harum ipsam labore unde corporis et aperiam?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laborum dicta quia iusto
+                    non! Corrupti similique, minima quasi asperiores minus pariatur laboriosam nihil, harum ipsam labore
+                    unde corporis et aperiam?</p>
             </div>
         </section>
+
         <section class="productos">
             <!-- Ejemplos de los productos que se van a encontrar en el sitio -->
-            <div>
+            <div class="tarjetas">
                 <img src="https://redagricola.com/wp-content/uploads/2023/04/cafe-arabica-16.jpg" alt="granos-cafe">
                 <h3>Cafe Arabigo</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate incidunt quod, nihil quas nam cumque vel porro perspiciatis consequuntur dolor. Et ratione laudantium modi magnam quasi, consequuntur provident cum voluptas.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate incidunt quod, nihil quas nam
+                    cumque vel porro perspiciatis consequuntur dolor. Et ratione laudantium modi magnam quasi,
+                    consequuntur provident cum voluptas.</p>
             </div>
-            <div>
+            <div class="tarjetas">
                 <img src="./media/aicoffeebeans1.png" alt="granos-cafe">
                 <h3>Cafe Seattle</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis laudantium cupiditate accusantium blanditiis tempore maiores molestias unde illum facere corporis. Accusamus, expedita delectus laudantium quia cumque explicabo a ipsum rem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis laudantium cupiditate accusantium
+                    blanditiis tempore maiores molestias unde illum facere corporis. Accusamus, expedita delectus
+                    laudantium quia cumque explicabo a ipsum rem.</p>
             </div>
-            <div>
+            <div class="tarjetas">
                 <img src="https://m.media-amazon.com/images/I/51GkRKZwutL._AC_UF1000,1000_QL80_.jpg" alt="granos-cafe">
                 <h3>Cafe Peruano</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis laudantium cupiditate accusantium blanditiis tempore maiores molestias unde illum facere corporis. Accusamus, expedita delectus laudantium quia cumque explicabo a ipsum rem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis laudantium cupiditate accusantium
+                    blanditiis tempore maiores molestias unde illum facere corporis. Accusamus, expedita delectus
+                    laudantium quia cumque explicabo a ipsum rem.</p>
+            </div>
+            <div class="tarjetas">
+                <img src="https://m.media-amazon.com/images/I/51GkRKZwutL._AC_UF1000,1000_QL80_.jpg" alt="granos-cafe">
+                <h3>Cafe Colombia</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis laudantium cupiditate accusantium
+                    blanditiis tempore maiores molestias unde illum facere corporis. Accusamus, expedita delectus
+                    laudantium quia cumque explicabo a ipsum rem.</p>
             </div>
         </section>
         <section>
             <!-- El box final de la pagina de inicio -->
             <div class="bottom">
                 <h3>Como hacer el mejor café:</h3>
+                <img src="./media/coffeemachine.png" alt="bolsas-cafe">
                 <ol>
                     <li>Poner a calentar el agua</li>
                     <li>Poner cafe en la taza</li>
@@ -51,7 +89,6 @@
                     <li>Agregar el resto del agua</li>
                     <li>Disfrutar</li>
                 </ol>
-                <img src="./media/coffeemachine.png" alt="bolsas-cafe">
             </div>
         </section>
     </main>
@@ -66,5 +103,14 @@
             <a href="https://www.linkedin.com/">LinkedIn</a>
         </div>
     </footer>
+
+    <!-- Bootstrap Java y Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -16,15 +16,14 @@ header nav{
     flex-wrap: wrap;
 }
 header nav img{
-    width: 90px;
-    height: 80px;
+    width: 60px;
+    height: 54px;
     border-radius: 15px;
 }
 header nav a{
     color: #312c28;
     text-decoration: none;
     font-size: 25px;
-    margin-top: 25px;
     font-family: sans-serif, Verdana, Geneva, Tahoma;
 }
 
