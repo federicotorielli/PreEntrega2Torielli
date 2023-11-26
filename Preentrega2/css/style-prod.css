@@ -1,0 +1,99 @@
+/* Estilos al Productos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos al header se mantiene igual que el index */
+header{
+    background-color: #c8b5a6;
+}
+header nav{
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+header nav img{
+    width: 90px;
+    height: 80px;
+    border-radius: 15px;
+}
+header nav a{
+    color: #312c28;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+
+/* Estilos al titulo */
+h1{
+    background-color: #e0e0eb;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+    color: #180202;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Estilos al main */
+main{
+    background-color: #e0e0eb;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+main section{
+    margin: 5px;
+    padding: 30px;
+}
+main section div{
+    width: 280px;
+    border: 1px solid #ccb7a7e0;
+    background-color: #cfbeb1;
+    border-radius: 5px;
+}
+main section div img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+main section div h3{
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+    color: #180202;
+}
+main section div p{
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+    font-size: small;
+    color: #180202;
+    text-align: center;
+    line-height: 23px;
+}
+
+/* Estilos al footer, son los mismos que el index */
+footer{
+    background-color: #c8b5a6;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+footer .copy{
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+    margin-right: 200px;
+}
+footer .redes{
+    margin-left: 200px;
+}
+footer .redes a{
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}

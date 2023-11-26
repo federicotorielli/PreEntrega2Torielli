@@ -1,0 +1,133 @@
+/* Estilos al Index */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos al header */
+header{
+    background-color: #c8b5a6;
+}
+header nav{
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+header nav img{
+    width: 90px;
+    height: 80px;
+    border-radius: 15px;
+}
+header nav a{
+    color: #312c28;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+
+/* Estilos al main */
+main{
+    background-color: #e0e0eb;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+main section{
+    margin: 15px;
+    padding: 30px;
+}
+/* Estilos del intro box */
+main section .intro{
+    border: 1px solid #ccb7a7e0;
+    background-color: #cfbeb1;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-radius: 20px;
+}
+main section .intro img{
+    width: 950px;
+    height: 400px;
+    margin-left: 20px;
+}
+main section .intro p{
+    margin-top: 150px;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+    color: #180202;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* Estilo a la section ejemplos de producto */
+main .productos{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+main .productos div{
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+    color: #180202;
+}
+main .productos div img{
+    width: 250px;
+    height: 230px;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+/* Estilos a la ultima section de la pagina de inicio */
+main section .bottom{
+    border: 1px solid #ccb7a7e0;
+    background-color: #cfbeb1;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-radius: 20px;
+}
+main section .bottom img{
+    width: 550px;
+    height: 350px;
+    margin-left: 20px;
+}
+main section .bottom h3{
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+    color: #180202;
+    padding: 30px;
+}
+main section .bottom ol{
+    margin-top: 50px;
+    padding: 15px;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+    color: #180202;
+    line-height: 30px;
+    text-align: left;
+}
+
+/* Estilos al footer */
+footer{
+    background-color: #c8b5a6;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+footer .copy{
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+    margin-right: 200px;
+}
+footer .redes{
+    margin-left: 200px;
+}
+footer .redes a{
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
